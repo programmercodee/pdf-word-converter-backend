@@ -3,7 +3,6 @@ from fastapi.responses import FileResponse
 import os
 from pdf2docx import Converter
 import uuid
-from docx2pdf import convert as docx_to_pdf_convert
 from fastapi.middleware.cors import CORSMiddleware
 import subprocess
 from fastapi import HTTPException
